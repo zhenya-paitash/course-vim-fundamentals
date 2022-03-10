@@ -10,13 +10,11 @@ To use the exercises, please curl the file to your machine and edit it with vim.
 
 ## Exercise 1: Basic Editing
 ### Delete a line with dd
-delete me 1
-delete me 2
-delete me 3
-delete me 4
 
 ### Yank and paste.  yy to yank line, p to paste line below, P above
 yank me and paste below (yyp)
+yank me and paste below (yyp)
+yank me and paste above (yyP)
 yank me and paste above (yyP)
 
 ### Visual Mode
@@ -44,6 +42,7 @@ Lets repeat but with d instead of y, (What happened?)
 What did we see there?
 
 yank this line
+yank this asdfasdfline
 
 What happened to the registers?
 

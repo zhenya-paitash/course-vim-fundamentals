@@ -16,3 +16,9 @@ title: insert
 path: /lessons/exercise-2.md
 cmd: curl https://raw.githubusercontent.com/ThePrimeagen/vim-fundamentals/master/course-website/lessons/exercise-2-insert.md > lessons/exercise-2.md && vim lessons/exercise-2.md
 
+exercise: 3
+name: Customizing vim View
+name: JavaScript preview
+title: some javascript
+path: /lessons/some-javascript.md
+cmd: curl https://raw.githubusercontent.com/ThePrimeagen/vim-fundamentals/master/course-website/lessons/some-javascript.md > lessons/some-javascript.js && vim lessons/some-javascript.js

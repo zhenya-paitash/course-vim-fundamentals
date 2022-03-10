@@ -1,0 +1,3 @@
+add this to $env:localappdata/nvim/init.vim
+or
+write ":source ./init.vim" to set this config

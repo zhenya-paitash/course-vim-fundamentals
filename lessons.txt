@@ -1,0 +1,2 @@
+exercise 0:
+cmd: curl https://raw.githubusercontent.com/ThePrimeagen/vim-fundamentals/master/course-website/lessons/exercise-0-hjkl-x.md > exercise-0.md && vim exercise-0.md

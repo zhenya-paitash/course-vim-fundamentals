@@ -1,3 +1,4 @@
+set encoding=utf-8
 set scrolloff=8
 set number
 set relativenumber
@@ -6,19 +7,23 @@ set shiftwidth=4
 set expandtab
 set smartindent
 
-colorscheme desert
-"
+"PLUG
+call plug#begin('~/AppData/Local/nvim-data/site/plugged')
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
+Plug 'ayu-theme/ayu-vim'
+call plug#end()
+
+set termguicolors     " enable true colors support
+let ayucolor="dark"   " for dark version of theme
+colorscheme ayu
+
 "MAPPING
 let mapleader = " "
-nnoremap <leader>pv :Vex<CR>
-map <C-n> :Vex<CR>
-"---Windows Mapping
-nmap ss :split<Return><C-w>w
-nmap sv :vsplit<Return><C-w>w
-"nmap <Space> <C-w>w
-map sh <C-w>h
-map sk <C-w>k
-map sj <C-w>j
-map sl <C-w>l
-map so <C-w>o
-map sq <C-w>q
+"nnoremap <leader>pv :Vex<CR>
+nnoremap s <C-w>
+nnoremap <C-s> :w<CR>
+nnoremap <C-p> :GFiles<CR>
+nnoremap <leader>pf :Files<CR>
+nnoremap <C-j> :cnext<CR>
+nnoremap <C-k> :cprev<CR>

@@ -1,4 +1,4 @@
-exercise: 0
+xercise: 0
 name: Basic Navigations
 title: hjkl-x
 path: /lessons/exercise-0.md
@@ -16,9 +16,27 @@ title: insert
 path: /lessons/exercise-2.md
 cmd: curl https://raw.githubusercontent.com/ThePrimeagen/vim-fundamentals/master/course-website/lessons/exercise-2-insert.md > lessons/exercise-2.md && vim lessons/exercise-2.md
 
-exercise: 3
 name: Customizing vim View
 name: JavaScript preview
-title: some javascript
+title: some-javascript
 path: /lessons/some-javascript.md
 cmd: curl https://raw.githubusercontent.com/ThePrimeagen/vim-fundamentals/master/course-website/lessons/some-javascript.md > lessons/some-javascript.js && vim lessons/some-javascript.js
+
+exercise: 3
+name: Search & Replace
+title: search-and-replace
+path: /lessons/exercise-3.md
+cmd: curl https://raw.githubusercontent.com/ThePrimeagen/vim-fundamentals/master/lessons/exercise-3-search-and-replace.md > lessons/exercise-3.md && vim lessons/exercise-3.md
+
+exercise: 4
+name: Macros
+title: macros
+path: /lessons/exercise-4.md
+cmd: curl https://raw.githubusercontent.com/ThePrimeagen/vim-fundamentals/master/lessons/exercise-4-macros.md > lessons/exercise-4.md && vim lessons/exercise-4.md
+
+exercise: 5
+name: Registers
+title: registers
+path: /lessons/exercise-5.md
+cmd: curl https://raw.githubusercontent.com/ThePrimeagen/vim-fundamentals/master/lessons/exercise-5-registers.md > lessons/exercise-5.md && vim lessons/exercise-5.md
+

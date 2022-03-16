@@ -6,6 +6,9 @@ set tabstop=4 softtabstop=4
 set shiftwidth=4
 set expandtab
 set smartindent
+set lazyredraw
+set smartcase
+set ignorecase
 
 "PLUG
 call plug#begin('~/AppData/Local/nvim-data/site/plugged')
@@ -16,6 +19,7 @@ call plug#end()
 
 set termguicolors     " enable true colors support
 let ayucolor="dark"   " for dark version of theme
+"let ayucolor="mirage" " for mirage version of theme
 colorscheme ayu
 
 "MAPPING

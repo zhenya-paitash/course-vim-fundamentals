@@ -1,4 +1,4 @@
-set encoding=utf-8
+﻿set encoding=utf-8
 set scrolloff=8
 set number
 set relativenumber
@@ -21,13 +21,29 @@ set termguicolors     " enable true colors support
 let ayucolor="dark"   " for dark version of theme
 "let ayucolor="mirage" " for mirage version of theme
 colorscheme ayu
+highlight LineNr guifg=#FF7733
+highlight LineNrAbove guifg=#2D3640
+highlight LineNrBelow guifg=#2D3640
+
+"syntax on
 
 "MAPPING
 let mapleader = " "
-"nnoremap <leader>pv :Vex<CR>
 nnoremap s <C-w>
 nnoremap <C-s> :w<CR>
 nnoremap <C-p> :GFiles<CR>
-nnoremap <leader>pf :Files<CR>
 nnoremap <C-j> :cnext<CR>
 nnoremap <C-k> :cprev<CR>
+nnoremap <leader>pf :Files<CR>
+nnoremap <leader>pv :Vex<CR>
+
+"copy&paste
+vnoremap <leader>p "_dP
+vnoremap <leader>y "+y
+"sytem
+nnoremap <leader>y "+y
+nnoremap <leader>Y gg"+yG
+
+"moved visual
+vnoremap J :m '>+1<CR>gv=gv
+vnoremap K :m '<-2<CR>gv=gv

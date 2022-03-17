@@ -40,3 +40,9 @@ title: registers
 path: /lessons/exercise-5.md
 cmd: curl https://raw.githubusercontent.com/ThePrimeagen/vim-fundamentals/master/lessons/exercise-5-registers.md > lessons/exercise-5.md && vim lessons/exercise-5.md
 
+exercise: 6
+name: Advanced Motions
+title: motions
+path: /lessons/exercise-6.md
+cmd: curl https://raw.githubusercontent.com/ThePrimeagen/vim-fundamentals/master/lessons/exercise-6-motions.md > lessons/exercise-6.md && vim lessons/exercise-6.md
+
